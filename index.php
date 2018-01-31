@@ -213,7 +213,7 @@
                                     <div>
                                         <span>Habilidades</span>HTML5, CSS3, JavaScript</div>
                                     <div>
-                                        <span>Link</span>http://uif-thaisjara.com.ve</div>
+                                        <span>Link</span><a href="http://thaisjara.atwebpages.com">http://thaisjara.atwebpages.com</a></div>
                                 </div>
                                 <p>Web diseñada para un consultorio de una Fisioterapeuta.</p>
                             </div>
@@ -325,8 +325,8 @@
                                 <h3>SQL</h3>
                             </li>
                             <li>
-                                <span class="bar" data-width="65%"></span>
-                                <h3>SQL</h3>
+                                <span class="bar" data-width="60%"></span>
+                                <h3>GIT</h3>
                             </li>
                         </ul>
                     </div>
@@ -343,12 +343,12 @@
 
         <!-- Estudios section start -->
         <div id="estudios">
-            <div class="section primary-section">
-                <div class="triangle"></div>
+            <div class="section primary-section-inverse" style="background: #42abe0">
+                <div class="triangle" style="    border-top: 40px solid #181a1c;"></div>
                 <div class="container">
-                    <div class="title">
+                    <div class="title" style="color:#181a1c;">
                         <h1>Estudios</h1>
-                        <p>Ingeniero en Informatica.</p>
+                        <p style="color:#181a1c;">Ingeniero en Informatica.</p>
                     </div>
                     <div class="row" >
                         <div class="span4">
@@ -398,9 +398,9 @@
         
         <!-- Contact section start -->
         <div id="contact" class="contact">
-            <div class="section secondary-section">
+            <div class="section secondary-section" style="background: #181a1c ; color:#42abe0;">
                 <div class="container">
-                    <div class="title">
+                    <div class="title" style="border-bottom: 1px solid #42abe0">
                         <h1>Contacto</h1>
                         <p>Para cualquier información o pedido por favor contacteme.</p>
                     </div>

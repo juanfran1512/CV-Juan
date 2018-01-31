@@ -35,7 +35,7 @@
     line-height:20px;
 }
 a {
-    color:#181A1C;
+    color:#fff;
     text-decoration: none;
 }
 a:hover {
@@ -288,7 +288,7 @@ p {
     font-size:20px;
 }
 .thumbnail > p {
-    padding-bottom:20px;
+        padding: 0px 10px 20px 10px;
 }
 .thumbnail .mask {
     opacity:0.85;
@@ -352,6 +352,7 @@ p {
     font-weight: normal;
     margin-bottom: 20px;
     padding: 0;
+
 }
 .section .title > p {
     font-size: 20px;
@@ -365,13 +366,16 @@ p {
     border-top: 40px solid #42abe0;
 }
 .primary-section .title {
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #181A1C;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
     color: #42abe0;
 }
 .primary-section h1 {
-    color:#FFF;
+    color:#42abe0;
+}
+.primary-section h1 {
+    color:#42abe0;
 }
 .secondary-section {
     background:#42abe0;
@@ -564,10 +568,11 @@ p {
     background:#181A1C;
 }
 .testimonial p {
-    color:#181A1C;
-    background:#42abe0;
-    padding:15px;
-    margin:0;
+    color: #42abe0;
+    background: #181A1C;
+    padding: 15px;
+    margin: 0;
+
 }
 .testimonial .arrow {
     margin-left:10px;
@@ -589,6 +594,7 @@ p {
     float:left;
     margin-top:10px;
     padding-left:10px;
+    color: #171a1c;
 }
 .testimonial .whopic small {
     display:block;
@@ -687,10 +693,10 @@ p {
 3.7 Contact
 ********************************************************************/
  .contact {
-    background: #42abe0;
+    background: #181A1C;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
-    color: #181A1C;
+    color: #42abe0;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
@@ -786,16 +792,16 @@ p {
     width:60%;
     margin:0 auto;
     padding:15px;
-    color:#181A1C;
+    color:#42abe0;
 }
 .black {
-    color:#181A1C;
+    color:#fff;
 }
 /*
 3.8 Footer
 ********************************************************************/
  .footer {
-    background: #181A1C;
+    background: #42abe0;
     text-align: center;
 }
 .footer > p {
