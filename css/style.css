@@ -73,13 +73,13 @@ p {
 }
 .navbar .brand img {
     width:120px;
-    height:40px;
+    height:60px;
 }
 .navbar .nav > li > a {
     text-transform:uppercase;
     line-height: auto;
     vertical-align: middle;
-    margin:10px 3px;
+    margin:18px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     border: 1px solid #181A1C;
