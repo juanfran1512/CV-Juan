@@ -329,7 +329,7 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #42abe0;
+    color: #181a1c;
 }
 .social li a:hover {
     color:#181A1C;
@@ -577,7 +577,7 @@ p {
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #42abe0;
+    border-top:10px solid #181a1c;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -702,6 +702,7 @@ p {
     padding: 10px;
     line-height: 20px;
     height: auto;
+        width: 95%;
 }
 .contact textarea {
     height: 120px;
@@ -720,9 +721,11 @@ p {
 .contact-info {
     margin-top:10px;
     margin-bottom:10px;
+        width: 78%;
 }
 .contact-info p{
      font-weight:normal;
+     color:#181a1c;
 }
 .contact-info .icon {
     margin:10px auto;
@@ -766,7 +769,7 @@ p {
     background: rgba(255, 255, 255, 0.9);
     z-index:110;
     position:relative;
-    margin-top:-25px;
+
     padding:20px;
 }
 .contact-form h3 {
@@ -788,7 +791,7 @@ p {
     font-size:22px;
 }
 .info-mail {
-    border:1px solid white;
+    background:#181a1c;
     width:60%;
     margin:0 auto;
     padding:15px;
@@ -805,7 +808,7 @@ p {
     text-align: center;
 }
 .footer > p {
-    color: #fff;
+    color: #181a1c;
     margin:0;
 }
 

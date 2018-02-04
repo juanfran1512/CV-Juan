@@ -405,11 +405,13 @@
                         <p>Para cualquier información o pedido por favor contacteme.</p>
                     </div>
                 </div>
-                <div class="map-wrapper">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1238.7268147703576!2d-69.22858613969431!3d9.596899994712157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2sve!4v1517189359920" width="700" height="500" frameborder="0" style="border:0 ;float:right; margin-right: 10px; " allowfullscreen></iframe>
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span5 contact-form centered">
+
+                                     
+                        <div class="container">
+
+                        <div class="row">
+
+                            <div class="span5 contact-form ">
                                 <h3>Escribame</h3>
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Bien hecho!</strong>su mensaje fue enviado.</div>
@@ -439,17 +441,33 @@
                                         </div>
                                     </div>
                                 </form>
+                            </div> 
+
+                            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                                        <div style="overflow: hidden;height: 478px;width: 600px;float: right;"><div id="gmap_canvas" style="height:500px;width:600px;"></div>
+                                        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+                                            <a class="google-map-code" href="http://www.trivoo.net" id="get-map-data">trivoo</a>
+                                            </div>
+                                            <script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(9.5969,-69.228586),mapTypeId: google.maps.MapTypeId.SATELLITE};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(9.5969,-69.228586)});infowindow = new google.maps.InfoWindow({content:"<b>Av. Vencedores de Araure, Urb. Plaza Dorada, Calle 1, Casa 21</b><br/>Araure<br/> Portuguesa" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+                                            </script> 
                             </div>
-                        </div>
+
+
                     </div>
-                </div>
-                <div class="container">
+                <br>
+
+            </div>
+        </div>
+        <!-- Contact section edn -->
+        <!-- Footer section start -->
+        <div class="footer">
+                            <div class="container">
                     <div class="span9 center contact-info">
                         <p>Av. Vencedores de Araure, Urb. Plaza Dorada, Calle 1, Casa 21, Araure-Portuguesa Venezuela</p>
-                        <p class="info-mail">juan.spinformatica@gmail.com</p>
+                        <p class="info-mail"style="color: #42abe0;">juan.spinformatica@gmail.com</p>
                         <p>+58 414 957 2654</p>
                         <div class="title">
-                            <h3>Redes Sociales</h3>
+                            <p>Redes Sociales</p>
                         </div>
                     </div>
                     <div class="row-fluid centered">
@@ -487,11 +505,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Contact section edn -->
-        <!-- Footer section start -->
-        <div class="footer">
             <p>&copy; 2018 Juan F. Rodriguez R.</p>
         </div>
         <!-- Footer section end -->
