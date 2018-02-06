@@ -155,7 +155,7 @@
             <div class="container">
                 <div class=" title">
                     <h1>Mi trabajo</h1>
-                    <p>Portafolio con una lista de las webs que he diseñado.</p>
+                    <h3>Portafolio con una lista de las webs que he diseñado.</h3>
                 </div>
                 <ul class="nav nav-pills">
                     <li class="filter" data-filter="all">
@@ -296,7 +296,7 @@
             <div class="container">
                 
                
-                <div class="about-text centered">
+                <div class="about-text centered" style="border-bottom: 1px solid #181A1C;">
                     <h3>A cerca de mi</h3>
                     <p>Desarrollador con conocimientos en frontEnd y backEnd intermedios, afinidad con programas para diseñar logos y mejorar fotos de los clientes, bueno con manejadores de bases de datos como mySQL y PostgreSQL, ademas de buen manejo de versiones a traves de GIT, idioma nativo español e ingles intermedio, tanto en escritura como en dicción.</p>
                 </div>
@@ -343,12 +343,12 @@
 
         <!-- Estudios section start -->
         <div id="estudios">
-            <div class="section primary-section-inverse" style="background: #42abe0">
-                <div class="triangle" style="    border-top: 40px solid #181a1c;"></div>
+            <div class="section primary-section-inverse" style="background: #49a3d2;">
+                <div class="triangle" style="    border-top: 40px solid #fff;"></div>
                 <div class="container">
-                    <div class="title" style="color:#181a1c;">
+                    <div class="title" style="border-bottom: 1px solid #181A1C;">
                         <h1>Estudios</h1>
-                        <p style="color:#181a1c;">Ingeniero en Informatica.</p>
+                        <h3 style="color:#181a1c;">Ingeniero en Informatica.</h3>
                     </div>
                     <div class="row" >
                         <div class="span4">
@@ -398,11 +398,11 @@
         
         <!-- Contact section start -->
         <div id="contact" class="contact">
-            <div class="section secondary-section" style="background: #181a1c ; color:#42abe0;">
+            <div class="section primary-section" >
                 <div class="container">
-                    <div class="title" style="border-bottom: 1px solid #42abe0">
+                    <div class="title" >
                         <h1>Contacto</h1>
-                        <p>Para cualquier información o pedido por favor contacteme.</p>
+                        <h3>Para cualquier información o pedido por favor contacteme.</h3>
                     </div>
                 </div>
 
@@ -458,56 +458,58 @@
 
             </div>
         </div>
-        <!-- Contact section edn -->
-        <!-- Footer section start -->
-        <div class="footer">
-                            <div class="container">
-                    <div class="span9 center contact-info">
-                        <p>Av. Vencedores de Araure, Urb. Plaza Dorada, Calle 1, Casa 21, Araure-Portuguesa Venezuela</p>
-                        <p class="info-mail"style="color: #42abe0;">juan.spinformatica@gmail.com</p>
-                        <p>+58 414 957 2654</p>
-                        <div class="title">
-                            <p>Redes Sociales</p>
+        
+<footer>
+        <div class="container">
+            <div class="footer-left" style="float: left;">
+                    <h3 class="widgetheading">Dirección</h3>
+                    <address>
+                    
+                    Av. Vencedores de Araure, Urb. Plaza Dorada, Calle 1,   <br>
+                    Casa 21, Araure-Portuguesa Venezuela</address>
+                    <p>
+                        <i class="fa fa-phone"></i> (0414) 9572654 <br>
+                        <i class="fa fa-envelope"></i> juan.spinformatica@gmail.com
+                    </p>
+
+
+            </div>
+            <div class="footer-left" style="float: right;">
+                <div class="widget">
+                    <h3 class="widgetheading">Links de Interes</h3>
+                    <ul class="link-list">
+                        <li><a href="#">Manufacturas R.J. Atlantico</a></li>
+                        <li><a href="#">Cottonblue.ve</a></li>
+                        <li><a href="http://thaisjara.atwebpages.com" target="_blank">U.I.F Thais Jara</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            </div>
+        <div id="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>
+                                <span>© U.I.F. Thais Jara 2018 Todos los derechos reservados</span>
+                            </p>
                         </div>
                     </div>
-                    <div class="row-fluid centered">
-                        <ul class="social">
-                            <li>
-                                <a href="">
-                                    <span class="icon-facebook-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-twitter-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-linkedin-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-pinterest-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-dribbble-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-gplus-circled"></span>
-                                </a>
-                            </li>
+                    <div class="col-md-6">
+                        <ul class="social-network">
+                            <li><a href="#" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" data-placement="top" title="" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" data-placement="top" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#" data-placement="top" title="" data-original-title="Google plus"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
-            <p>&copy; 2018 Juan F. Rodriguez R.</p>
-        </div>
-        <!-- Footer section end -->
+            </div>
+        </div>  
+</footer>
         <!-- ScrollUp button start -->
         <div class="scrollup">
             <a href="#">
